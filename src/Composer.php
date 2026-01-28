@@ -2,18 +2,20 @@
 
 namespace Application;
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'Debug.php';
-use Module\File;
 
 class Composer
 {
 
+    public static function binary()
+    {
+        touch('/usr/bin/microstorm');
+    }
+
     public static function update(): void
     {
         echo 'Updating application, please wait...' . PHP_EOL;
-        if(!File::exist('/usr/bin/microstorm')){
-            echo 'Creating binary...' . PHP_EOL;
-            ddd('where is the binary create?');
-        }
+        echo 'Creating binary...' . PHP_EOL;
+        Composer::binary();
     }
 
 }
