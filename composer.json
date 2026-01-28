@@ -16,7 +16,7 @@
       }
     },
     "scripts": {
-        "post-update-cmd": "Application\\Composer::postUpdate"
+        "post-update-cmd": "Application\\Composer::update"
     },
     "license" : "MIT",
     "authors" : [{
