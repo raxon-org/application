@@ -1,0 +1,22 @@
+{
+    "name" : "raxon/application",
+    "description" : "raxon/application see https://raxon.org for detailed usage",
+    "type" : "package",
+    "keywords" : ["operation","microstorm", "micro", "storm","raxon", "org" ],
+    "homepage": "https://raxon.org",
+    "require": {
+      "raxon/exception": ">=2026.01.01",
+      "raxon/module": ">=2026.01.01",
+      "raxon/router": ">=2026.01.01"
+    },
+    "autoload": {
+      "psr-4": {
+        "Application\\": "src/"
+      }
+    },
+    "license" : "MIT",
+    "authors" : [{
+        "name" : "Remco van der Velde",
+        "email" : "development@universeorange.com"
+    }]
+}
