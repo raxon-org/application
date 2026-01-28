@@ -2,6 +2,8 @@
 
 namespace Application;
 
+use Module\File;
+
 class Composer
 {
 
