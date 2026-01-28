@@ -17,8 +17,7 @@
     },
     "scripts": {
         "post-update-cmd": [
-          "Application\\Composer::update",
-          "frankenphp run --config /Application/Caddyfile"
+          "Application\\Composer::update"
         ]
     },
     "license" : "MIT",
