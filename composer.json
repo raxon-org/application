@@ -10,7 +10,7 @@
       "raxon/module": "dev-main",
       "raxon/router": "dev-main",
       "raxon/plugin": "dev-main",
-      "latte/latte": "^3.2"
+      "latte/latte": "^3.1"
     },
     "autoload": {
       "psr-4": {
