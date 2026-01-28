@@ -1,7 +1,7 @@
 <?php
 
 namespace Application;
-
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'Debug.php';
 use Module\File;
 
 class Composer
