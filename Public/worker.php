@@ -11,6 +11,9 @@ $count = 0;
 $max = 5 * 1000; //5K requests and then restart
 while (frankenphp_handle_request($handler)) {
     $count++;
+    if($count % 5 === 0){
+        gc_collect_cycles();
+    }
     if($count >= $max){
         break;
     }
