@@ -1,7 +1,7 @@
 <?php
 ignore_user_abort(true);
 define('MICROSTORM', microtime(true));
-$app = require __DIR__ . '/app.php';
+$app = require dirname(__DIR__) . '/src/Application.php';
 $handler = static function () use ($app) {
     $app->run($_SERVER, $_FILES, $_COOKIE);
     // Called when a request is received,

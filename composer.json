@@ -5,15 +5,19 @@
     "keywords" : ["operation","microstorm", "micro", "storm","raxon", "org" ],
     "homepage": "https://raxon.org",
     "require": {
-      "raxon/exception": ">=2026.01.01",
-      "raxon/module": ">=2026.01.01",
-      "raxon/router": ">=2026.01.01"
+      "raxon/microstorm": "dev-main",
+      "raxon/exception": "dev-main",
+      "raxon/module": "dev-main",
+      "raxon/router": "dev-main"
     },
     "autoload": {
       "psr-4": {
         "Application\\": "src/"
       }
     },
+    "scripts": {
+        "post-update-cmd": "Application\\Composer::postUpdate"
+    }
     "license" : "MIT",
     "authors" : [{
         "name" : "Remco van der Velde",
