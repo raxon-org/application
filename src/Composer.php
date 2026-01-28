@@ -6,7 +6,7 @@ class Composer
 {
 
     public static function update(){
-        echo 'Updating application, please wait...';
+        echo 'Updating application, please wait...' . PHP_EOL;
     }
 
 }
