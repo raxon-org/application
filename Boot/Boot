@@ -1,1 +1,1 @@
-
+frankenphp run --config /Application/Caddyfile
