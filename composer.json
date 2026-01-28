@@ -8,7 +8,8 @@
       "raxon/microstorm": "dev-main",
       "raxon/exception": "dev-main",
       "raxon/module": "dev-main",
-      "raxon/router": "dev-main"
+      "raxon/router": "dev-main",
+      "raxon/plugin": "dev-main"
     },
     "autoload": {
       "psr-4": {
