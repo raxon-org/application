@@ -16,7 +16,7 @@
       }
     },
     "scripts": {
-        "post-create-project-cmd": [
+        "post-update-cmd": [
           "php -r \"copy('src/Binary', '/usr/bin/microstorm');\"",
           "chmod +x /usr/bin/microstorm"
         ]
