@@ -16,8 +16,9 @@
       }
     },
     "scripts": {
-        "post-update-cmd": [
-          "@php Application\\Composer::update"
+        "post-create-project-cmd": [
+          "php -r \"copy('src/Binary', '/usr/bin/microstorm');\"",
+          "chmod +x /usr/bin/microstorm"
         ]
     },
     "license" : "MIT",
