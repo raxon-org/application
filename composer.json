@@ -16,8 +16,8 @@
       }
     },
     "scripts": {
-        "post-update-cmd": [
-          "Application\\Composer::update"
+        "application": [
+          "@php Application\\Composer::update"
         ]
     },
     "license" : "MIT",
