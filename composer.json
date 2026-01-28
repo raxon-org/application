@@ -16,7 +16,7 @@
       }
     },
     "scripts": {
-        "install-application": [
+        "post-update-cmd": [
           "@php Application\\Composer::update"
         ]
     },
