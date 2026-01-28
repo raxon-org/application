@@ -17,7 +17,7 @@
     },
     "scripts": {
         "post-update-cmd": "Application\\Composer::postUpdate"
-    }
+    },
     "license" : "MIT",
     "authors" : [{
         "name" : "Remco van der Velde",
