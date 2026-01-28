@@ -9,7 +9,8 @@
       "raxon/exception": "dev-main",
       "raxon/module": "dev-main",
       "raxon/router": "dev-main",
-      "raxon/plugin": "dev-main"
+      "raxon/plugin": "dev-main",
+      "latte/latte": "^3.2"
     },
     "autoload": {
       "psr-4": {
