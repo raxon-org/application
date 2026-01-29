@@ -1,1 +1,2 @@
+service cron start -f
 frankenphp run --config /Application/Caddyfile
