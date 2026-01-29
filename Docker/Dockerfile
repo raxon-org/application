@@ -18,7 +18,6 @@ RUN chown www-data:www-data /usr/bin/composer
 RUN composer self-update
 
 COPY . /Application
-RUN mkdir -p /Application/Log
 COPY ./Docker/Packages/frankenphp/frankenphp-linux-x86_64 /usr/bin/frankenphp
 RUN chmod +x /usr/bin/frankenphp
 
