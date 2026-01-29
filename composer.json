@@ -20,7 +20,8 @@
     "scripts": {
         "post-update-cmd": [
           "php -r \"copy('src/Binary', '/usr/bin/microstorm');\"",
-          "chmod +x /usr/bin/microstorm"
+          "chmod +x /usr/bin/microstorm",
+          "microstorm boot -update"
         ]
     },
     "license" : "MIT",

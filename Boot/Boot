@@ -1,2 +1,2 @@
 frankenphp run --config /Application/Caddyfile
-microstorm boot
+microstorm boot -boot
