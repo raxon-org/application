@@ -1,2 +1,1 @@
 frankenphp run --config /Application/Caddyfile
-sleep 60 && microstorm boot -boot >> /Application/Log/boot.log
