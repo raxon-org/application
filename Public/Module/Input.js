@@ -8,23 +8,8 @@ input.init(){
 
 
     submit.on('click', (event) => {
-        const prompt = section.select('textarea[name="prompt"]').val();
-        const model = section.select('select[name="model"]').val();
-        const url_backend = file.data.get('route.backend.generate');
 
-        const num_ctx = parseInt(section.select('[name="context-size"]').val() ?? 2048);
-        const temperature = parseFloat(section.select('[name="temperature"]').val() ?? 0.8);
-        const seed = parseInt(section.select('[name="seed"]').val() ?? 0);
-        const endpoint = section.select('[name="endpoint"]').val();
-        let think = false;
-        if(section.select('[name="think"]')?.checked){
-            think = section.select('[name="think"]').val();
-            if(think === "true"){
-                think = true;
-            } else {
-                think = false;
-            }
-        }
+        const prompt = section.select('textarea[name="prompt"]').val();
         let data;
         if(_('prototype').string.contains(endpoint, 'chat')){
             let messages = file.data.get('messages.' + section_id) ?? [];
